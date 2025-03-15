@@ -1,0 +1,60 @@
+export const initialTables = {
+  products: {
+    0: {
+      name: 'Rolex Submariner',
+      price: 9_100,
+      image: 'https://via.assets.so/watch.png?id=15&q=95&w=360&h=360&fit=fill',
+      tags: 'Rolex, Submariner, luxury, diving',
+      description: 'The Rolex Submariner is a legendary diving watch known for its robust design and precision. Introduced in 1953, it has become a symbol of luxury and adventure.',
+    },
+    1: {
+      name: 'Omega Speedmaster Professional',
+      price: 5_900,
+      image: 'https://via.assets.so/watch.png?id=2&q=95&w=360&h=360&fit=fill',
+      tags: 'Omega, Speedmaster, chronograph, moonwatch',
+      description: 'The Omega Speedmaster Professional, famously known as the "Moonwatch," was the first watch worn on the moon. It boasts a timeless design and exceptional chronograph performance.',
+    },
+    2: {
+      name: 'Patek Philippe Nautilus',
+      price: 30_000,
+      image: 'https://via.assets.so/watch.png?id=3&q=95&w=360&h=360&fit=fill',
+      tags: 'Patek Philippe, Nautilus, luxury, sports',
+      description: 'Designed by Gérald Genta in 1976, the Patek Philippe Nautilus is an iconic luxury sports watch, featuring a distinctive porthole-inspired design and exceptional craftsmanship.',
+    },
+    3: {
+      name: 'Audemars Piguet Royal Oak',
+      price: 7_000,
+      image: 'https://via.assets.so/watch.png?id=4&q=95&w=360&h=360&fit=fill',
+      tags: 'Audemars Piguet, Royal Oak, luxury, sports',
+      description: 'The Audemars Piguet Royal Oak, introduced in 1972, revolutionized the luxury watch industry with its bold design, featuring an octagonal bezel and integrated bracelet.',
+    },
+    4: {
+      name: 'Vacheron Constantin Overseas',
+      price: 16_000,
+      image: 'https://via.assets.so/watch.png?id=16&q=95&w=360&h=360&fit=fill',
+      tags: 'Vacheron Constantin, Overseas, luxury, sports',
+      description: 'The Vacheron Constantin Overseas is a luxury sports watch combining elegance and functionality, ideal for the discerning traveler.',
+    },
+    5: {
+      name: 'Patek Philippe Calatrava',
+      price: 15_000,
+      image: 'https://via.assets.so/watch.png?id=17&q=95&w=360&h=360&fit=fill',
+      tags: 'Patek Philippe, Calatrava, luxury, dress',
+      description: 'The Patek Philippe Calatrava is the epitome of understated elegance, featuring a minimalist design that has remained timeless since its introduction in 1932.',
+    },
+    6: {
+      name: 'Omega Seamaster Diver 300M',
+      price: 6_500,
+      image: 'https://via.assets.so/watch.png?id=7&q=95&w=360&h=360&fit=fill',
+      tags: 'Omega, Seamaster, diving, luxury',
+      description: 'The Omega Seamaster Diver 300M is a professional diving watch known for its reliability and sleek design, popularized by its association with the James Bond franchise.',
+    },
+    7: {
+      name: 'Tag Heuer Carrera',
+      price: 3_573,
+      image: 'https://via.assets.so/watch.png?id=8&q=95&w=360&h=360&fit=fill',
+      tags: 'Tag Heuer, Carrera, chronograph, sports',
+      description: 'The Tag Heuer Carrera is a classic chronograph inspired by motor racing, offering a blend of sporty aesthetics and precision timekeeping.',
+    },
+  },
+};
