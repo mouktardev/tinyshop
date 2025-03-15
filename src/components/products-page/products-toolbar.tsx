@@ -19,6 +19,7 @@ export function ProductsToolBar({ selectedKeys, setSelectedKeys }: Props) {
     };
     const AddSelectedToCart = () => {
         if (selectedKeys === "all") {
+            // eslint-disable-next-line @typescript-eslint/no-unused-vars
             storeReference?.forEachRow("products", (rowId, forEachCell) => {
                 storeReference.setPartialRow(
                     "cart",
